@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa;
+}
+/* Navigation Bar */
+
+.navbar {
+  background-color: #53ccba;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.navbar .name {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar a {
+  color: #000000;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+.navbar a:hover {
+  background-color: #e5f6f2;
+  color: black;
+}
+.nav-links {
+  display: flex;
+}
+/* Home Section */
+
+.profile {
+  width: 40px;
+  height: auto;
+  border-radius: 8px;
+}
+.home {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.home-text {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-style: oblique;
+}
+/* About Me Section */
+.about {
+  padding: 50px 0;
+  background-color: #e5f6f2; /* Light cyan background color */
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about .heading {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.about .heading span {
+  color: rgb(210, 129, 222); /* Highlight color */
+  font-weight: bold;
+}
+
+.about .highlight {
+  color: #007bff; /* Highlight color for the span */
+}
+
+.about-text p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+.abtImg {
+  width: 320px; /* Set width of the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto; /* Optional: Rounded corners */
+}
+
+/* Project section */
+#projects {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #e0f7fa; /* Light cyan background color */
+}
+.pro {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(210, 129, 222);
+  padding-bottom: 60px;
+}
+@media (min-width: 576px) {
+  .d-sm-block {
+    display: block !important;
+  }
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.d-none {
+  display: none !important;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2);
+}
+.mb-3 {
+  color: rgb(48, 147, 201);
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+/* Contact */
+.contact {
+  background-color: #e5f6f2;
+  text-align: center;
+  padding-top: 100px; /* Use padding to maintain spacing */
+  padding-bottom: 100px;
+}
+
+/* FOOTER */
+
+.footer-area {
+  background-color: #53ccba;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-content {
+  text-align: center;
+  padding-left: 10%;
+}
+.footer-content p {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.social-share {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.social-share li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.social-share a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.social-share a:hover {
+  color: #56766f;
+}
